@@ -1,0 +1,20 @@
+
+<%- include("partials/header")%>
+  <%- include("partials/nav")%>
+
+  <div class="rounded p-5 mt-3  container "action="/send-mail" method="post">
+
+    <form
+    class="rounded p-5 mt-5 text-center"action="/send-mail" method="post">
+    <input
+        type="email"
+        class="form-control"
+        name="email"
+        placeholder="email@domain.com"
+    />
+    <button class="w-100 mt-3 btn btn-success">send mail</button>
+</form>
+    
+    </div>
+    
+<%- include("partials/footer")%>
